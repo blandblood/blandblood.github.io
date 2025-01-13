@@ -3,9 +3,14 @@ body {
   font-family:"Comfortaa", serif;
 }
 
+#pagina {
+	width:50%;
+	margin: 0 auto;
+}
+
 #header {
 	height:5%;
-	width:50%;
+	width:100%;
 	background:#003b6f;
 	padding: 0px 5px 2px 5px;
 	margin: 0 auto;
@@ -30,4 +35,8 @@ body {
 
 #header a:hover {
 	color:#A9A9A9;
+}
+
+#alvaro h1 {
+	margin: 0;
 }
