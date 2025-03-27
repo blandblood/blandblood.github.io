@@ -32,3 +32,14 @@ body {
 .header a:hover {
 	color:#A9A9A9;
 }
+
+.texto a:link {
+	color:#000000;
+}
+.texto a:visited {
+	color:#000000;
+}
+.texto a:hover {
+	color:#A9A9A9;
+	text-decoration:none;
+}
