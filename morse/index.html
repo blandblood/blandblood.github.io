@@ -4,14 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <title>codigo morse</title>
 </head>
 <body>
-    <div class="container">
-        <textarea id="texto" placeholder="texto"></textarea><br>
-        <button id="converterTextoMorse">converter o texto pra morse</button><br>
-        <textarea id="morse" placeholder="output" readonly></textarea>
-    </div>
+    <div class="pagina">
+		<div class="header">
+			<h2><a href="../index.html">home</a></h2>
+			<h1>|</h1>
+			<h2><a href="../piano/index.html">piano!</a></h2>
+			<h1>|</h1>
+			<h2><a href="../calculadora/index.html">calculadora</a></h2>
+			<h1>|</h1>
+			<h2>morse</h2>
+		</div>
+		<div class="containerMorse">
+            <div class="morseTexto">
+                <textarea id="texto" placeholder="texto para codificar"></textarea><br>
+                <button id="converterTextoMorse">Codificar Texto em Morse</button>
+            </div>
+            <div class="textoMorse">
+                <textarea id="morse" placeholder="codigo morse para descodificar"></textarea><br>
+                <button id="converterMorseTexto">Traduzir Código Morse</button>
+            </div>
+        </div>
+	</div>
 </body>
 <script src="script.js"></script>
 </html>
