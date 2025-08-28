@@ -1,0 +1,218 @@
+body {
+    background:#161616;
+    color: white;
+    overflow-x:hidden;
+}
+
+.container{
+    display:flex;
+    height:100%;
+    width:100%;
+}
+
+.header {
+    background:#202020;
+    width:100%;
+    position: fixed;
+    top: 0; left: 0;
+    border-bottom: 2px solid #303030;
+    display:flex;
+    z-index: 2;
+}
+
+.logo{
+    width:22%;
+    white-space: nowrap;
+    display: flex;
+}
+.logo a{
+    display:flex;
+}
+.logo img{
+    padding-top: 15px;
+    padding-left:10px;
+    padding-bottom: 5px;
+    height: 60px;
+}
+.logo h1{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 700;
+    padding-left: 10px;
+    font-size:1.7vw;
+    margin:auto auto auto 0;
+    color:white;
+}
+.logo a:visited{
+    color:white;
+}
+.logo a:link{
+    text-decoration: none;
+}
+
+.headerBotoes {
+    margin:auto;
+    width:55%;
+    display:flex;
+}
+
+.barraDePesquisa{
+    background: #121212;
+    color: white;
+    border: 1px solid #252525;
+    border-radius: 50px;
+    width:50%;
+    height:50px;
+}
+
+.pesquisar {
+    width: 50px;
+    height:50px;
+    border-radius:100px;
+    border: 1px solid #252525;
+    background: #121212;
+    margin: auto auto auto 0;
+    cursor:pointer;
+}
+
+.login {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:auto 10px auto auto;
+    white-space: nowrap;
+    background:#202020;
+    color: white;
+    border: 2px solid #121212;
+    border-radius: 10px;
+    height:50px;
+    width:100px;
+    cursor:pointer;
+    transition: all 0.3s;
+    font-size:1em
+}
+.login:hover {
+    background: #141414;
+    font-size: 1.3em;
+    color:white;
+}
+.login a:link{
+    color:white;
+    text-decoration: none;
+}
+.login a:visited{
+    color: white;
+}
+
+.carrinho {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:auto 10px auto auto;
+    white-space: nowrap;
+    background:#202020;
+    color: white;
+    border: 2px solid #121212;
+    border-radius: 10px;
+    height:50px;
+    width:130px;
+    cursor:pointer;
+    transition: all 0.3s;
+    font-size:1em
+}
+.carrinho:hover {
+    background: #141414;
+    font-size: 1.3em;
+    color:white;
+}
+.carrinho a:link{
+    color:white;
+    text-decoration: none;
+}
+.carrinho a:visited{
+    color: white;
+}
+
+.catalogo{
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    margin: auto auto auto 50px;
+    background:#202020;
+    color: white;
+    border: 2px solid #121212;
+    border-radius: 10px;
+    height:50px;
+    width:130px;
+    cursor:pointer;
+    transition: all 0.3s;
+    font-size:1em
+}
+.catalogo:hover {
+    background: #141414;
+    font-size: 1.3em;
+}
+
+.itemContainer{
+    display:flex;
+    margin-left:20px;
+}
+
+.item{
+    width:180px;
+    margin-left:50px;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+
+.item:hover{
+    text-align: center;
+}
+
+.item img:hover {
+    height:270px;
+    width: 190px;
+}
+
+.item img {
+    background:#060606;
+    height:250px;
+    width:170px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+.item h2 {
+    overflow:hidden;
+    transition: all 0.3s;
+    font-size: 20px;
+}
+
+.itemContainer a:link{
+    text-decoration: none;
+    color:white;
+}
+.itemContainer a:visited{
+    color:white;
+}
+
+.containerSecoes{
+    display:flex;
+    margin: 0 auto;
+}
+
+.secoes {
+    position:relative;
+    top:75px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.secao h1{
+    text-align: center;
+    margin-bottom:50px
+}
+.secao img {
+    height:220px;
+    width:150px;
+}
+.secao h2{
+    overflow: hidden;
+}
+.secao .itemContainer{
+    display: flex;
+    justify-content: center;
+}

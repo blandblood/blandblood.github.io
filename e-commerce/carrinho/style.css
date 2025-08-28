@@ -1,0 +1,124 @@
+body {
+    background:#161616;
+    color: white;
+    overflow-x:hidden;
+}
+
+.container{
+    display:flex;
+    height:100%;
+    width:100%;
+}
+
+.header {
+    background:#202020;
+    width:100%;
+    position: fixed;
+    top: 0; left: 0;
+    border-bottom: 2px solid #303030;
+    display:flex;
+    z-index: 2;
+}
+
+.logo{
+    width:22%;
+    white-space: nowrap;
+    display: flex;
+    margin: auto;
+}
+.logo a{
+    display:flex;
+}
+.logo img{
+    padding-top: 15px;
+    padding-left:10px;
+    padding-bottom: 5px;
+    height: 60px;
+}
+.logo h1{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 700;
+    padding-left: 10px;
+    font-size:1.7vw;
+    margin:auto auto auto 0;
+    color:white;
+}
+.logo a:visited{
+    color:white;
+}
+.logo a:link{
+    text-decoration: none;
+}
+
+.pagina{
+    width: 100%;
+    height:90%;
+    position: absolute;
+    top:80px; left: 0px;
+    font-family: 'Comfortaa', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    margin-right: 25px;
+    width:70%;
+    height: 90%;
+    background: #303030;
+    border-radius: 20px;
+    overflow-x: hidden;
+}
+.interativos{
+    margin-top: 30%;
+}
+.comprar{
+    width:320px;
+    height:50px;
+    border-radius:50px;
+    color: white;
+    background:green;
+    border: 2px solid green;
+    margin-bottom:10px;
+}
+
+.comprar:hover {
+    border: 2px solid yellowgreen;
+    cursor:pointer;
+}
+
+
+.item{
+    margin-left: 20px;
+    display:flex;
+}
+
+.textos h2{
+    width: 800px;
+}
+
+.remove{
+    background:darkred;
+    color:white;
+    border:darkred;
+    border-radius: 20px;
+    height:35px;
+    width: 100px;
+    margin-left: 27%;
+    margin-top:auto; margin-bottom: auto;
+}
+
+.remove:hover{
+    border:1px solid red;
+    cursor:pointer;
+}
+
+.item h2{
+    margin-bottom:-15px;
+}
+
+.separador{
+    border:2px solid #505050;
+    width:95%;
+    margin: auto auto 10px auto;
+}

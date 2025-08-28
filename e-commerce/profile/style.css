@@ -1,0 +1,146 @@
+body {
+    background:#161616;
+    color: white;
+    overflow-x:hidden;
+}
+
+.container{
+    display:flex;
+    height:100%;
+    width:100%;
+}
+
+.header {
+    background:#202020;
+    width:100%;
+    position: fixed;
+    top: 0; left: 0;
+    border-bottom: 2px solid #303030;
+    display:flex;
+    z-index: 2;
+}
+
+.logo{
+    width:22%;
+    white-space: nowrap;
+    display: flex;
+    margin: auto;
+}
+.logo a{
+    display:flex;
+}
+.logo img{
+    padding-top: 15px;
+    padding-left:10px;
+    padding-bottom: 5px;
+    height: 60px;
+}
+.logo h1{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 700;
+    padding-left: 10px;
+    font-size:1.7vw;
+    margin:auto auto auto 0;
+    color:white;
+}
+.logo a:visited{
+    color:white;
+}
+.logo a:link{
+    text-decoration: none;
+}
+
+.pagina{
+    width: 100%;
+    height:90%;
+    position: absolute;
+    top:80px; left: 0px;
+    font-family: 'Comfortaa', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#telaLogin{
+    position:absolute;
+    border: 2px solid #303030;
+    border-radius: 10px;
+    background: #303030;
+    height: 120px;
+    width: 300px;
+    overflow: hidden;
+}
+
+#telaLogin label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#telaLogin .nome{
+    display: flex;
+    margin: -10px auto auto auto;
+    background-color: #121212;
+    border: 1px solid #252525;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.entrar {
+    display: flex;
+    margin: 10px auto auto auto;
+    background-color: #121212;
+    border: 1px solid #252525;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1em;
+    text-align: center;
+    height: 30px;
+    width: 75px;
+}
+
+#profilePage{
+    border: 2px solid #303030;
+    border-radius: 10px;
+    background: #303030;
+    height: 90%;
+    width: 450px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.separador {
+    margin: auto;
+    width: 90%;
+    border: 2px solid #202020;
+}
+
+.sair{
+    display: flex;
+    color: darkred;
+    margin-top: 90%;
+    justify-content: center;
+}
+
+.botoes{
+    font-size: 1em;
+    transition: all 0.3s;
+}
+
+.botoes h4:hover{
+    font-size: 1.1em;
+    cursor:pointer;
+}
+
+.botoes a:link{
+    text-decoration: none;
+    color:white;
+}
+
+.botoes a:visited{
+    color: white;
+}
